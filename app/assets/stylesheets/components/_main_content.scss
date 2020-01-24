@@ -1,0 +1,92 @@
+.byline {
+	color: $gray;
+	line-height: 140%;
+	margin-bottom: 10px;
+}
+
+.opinion .byline {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.secondary-stories .byline {
+	margin-bottom: 5px;
+}
+
+.main-content {
+	position: relative;
+	margin-top: 18px;
+}
+
+.main-story section, .email-signup {
+	margin-bottom: 20px;
+}
+
+.video p {
+	margin-top: 10px;
+}
+
+section ul {
+	list-style: outside disc;
+	font-size: 12px;
+}
+
+section ul li {
+	margin-left: 16px;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+
+section p a {
+	font-size: 10px;
+	color: $blue;
+	font-family: $sans-serif;
+}
+
+.opinion p {
+	line-height: 16px;
+}
+
+.opinion h3 {
+	font-size: 12px;
+	margin: 0;
+}
+
+.opinion > h3:first-of-type {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 9px;
+	margin-bottom: 3px;
+}
+
+.opinion-list {
+	margin-top: 5px;
+}
+
+.opinion-list li {
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	margin-bottom: 5px;
+}
+
+.thumbnail {
+	height: 100px;
+}
+
+.thumbnail img {
+	object-fit: cover;
+}
+
+article {
+	margin-top: 10px;
+}
+
+article hr {
+	width: 50%;
+}
